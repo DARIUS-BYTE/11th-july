@@ -1,0 +1,165 @@
+<style>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1, p {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: blue;
+  text-align: right;
+  padding-left: 200px; 
+}
+
+.paragraph {
+  color: red;
+  font-weight: bold;
+}
+
+
+#title {
+  text-align: center;
+}
+
+
+.paragraph ~ p {
+  font-style: italic;
+}
+
+
+.paragraph + p {
+  text-decoration: underline;
+}
+
+
+#container > .child {
+  background-color: #eee;
+}
+
+
+#container p {
+  margin-bottom: 10px;
+}
+
+
+#container:hover {
+  background-color: lightgray;
+}
+
+
+#container:active {
+  color:aqua;
+}
+
+
+#title:focus {
+  color: green;
+}
+
+
+a:visited {
+  color: purple;
+  
+}
+a:visited:hover {
+  color: purple; /* Ensure color stays for visited links even on hover */
+}
+
+
+p:not(.paragraph) {
+  font-style: normal;
+}
+
+
+#container {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#title {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.paragraph {
+  position: sticky;
+  top: 50px;
+  background-color: #0f1c7f;
+}
+
+
+</style>
+<body>
+    <div id="container">
+        <header>
+          <h1 id="title">Whatsapp<i class="fa fa-pagelines" aria-hidden="true"></i></h1>
+          <span>
+            <ul>
+              <li><a href="https://www.whatsapp.com/">Home</a></li>
+              <li><a href="https://blog.whatsapp.com/">About</a></li>
+              <li><a href="https://business.whatsapp.com/">Contact</a></li>
+            </ul>
+        </span>
+        </header>
+        <main>
+          <section>
+            <h2>About Us</h2>
+            <p class="paragraph">WhatsApp is a freeware, cross-platform, centralized instant messaging and voice-over-IP service owned by United States tech conglomerate Meta Platforms. It allows users to send text, voice messages and video messages, make voice and video calls, and share images, documents, user locations, and other content.</p>
+            <h3>In the digital era, communication has undergone a significant transformation with the advent of various messaging platforms. One such revolutionary platform is WhatsApp. Launched in 2009, WhatsApp has become a dominant force in the messaging landscape, transforming the way we connect and communicate with others. This essay explores the impact and evolution of WhatsApp, discussing its features, societal influence, and future prospec
+                WhatsApp began as a simple messaging application, allowing users to send text messages over the internet. However, it quickly evolved to incorporate numerous features, revolutionizing instant messaging. The introduction of multimedia messaging, voice notes, and group chats made WhatsApp more versatile and appealing to a wider audience. The platform's end-to-end encryption ensures privacy and security, bolstering user trust.
+                
+                The introduction of voice and video calling further expanded WhatsApp's capabilities, providing a cost-effective and convenient means of communication across borders. Additionally, the "Status" feature, inspired by Snapchat's stories, allows users to share images and videos that disappear after 24 hours, adding an element of personal expression.
+                
+            
+                WhatsApp's impact on society has been far-reaching. It has transformed interpersonal communication, breaking down barriers of distance and time. Families and friends separated by geographical boundaries can now connect effortlessly, bridging the gap created by physical separation.
+                
+                In addition to personal connections, WhatsApp has become an essential tool for businesses and organizations. It enables instant communication between colleagues, enhances productivity, and facilitates collaboration across teams. Small businesses, in particular, have benefited from WhatsApp's accessibility and simplicity, using it as a marketing and customer support tool.
+                
+                The platform's influence on journalism and citizen reporting is noteworthy. WhatsApp has empowered citizens to share news, photos, and videos from their immediate surroundings, contributing to the democratization of information. This has led to increased transparency and awareness of socio-political events, thereby amplifying voices that may have otherwise gone unheard.
+                
+                However, like any technology, WhatsApp has also faced challenges. Misinformation and the spread of fake news have been prevalent on the platform. Due to its end-to-end encryption, it becomes difficult for authorities to regulate or monitor such content. WhatsApp has implemented measures to tackle this issue, such as limiting the number of forwards and introducing fact-checking initiatives. Despite these efforts, the responsibility ultimately falls on users to verify information before sharing it.
+                
+                
+                As technology continues to evolve, so does WhatsApp. The platform has consistently updated its features and functionalities to stay relevant in an ever-changing digital landscape. WhatsApp Business was launched to cater specifically to the needs of small and medium-sized enterprises, allowing them to engage with customers more effectively. Furthermore, with the integration of WhatsApp Pay, users can make secure transactions within the app, expanding its utility beyond messaging.
+                
+                The future of WhatsApp lies in its potential to evolve into a comprehensive communication ecosystem. With the integration of more services, such as voice assistants or artificial intelligence, the platform could become a one-stop solution for various needs, from commerce to entertainment.
+                
+                
+                WhatsApp's impact on communication cannot be overstated. From its humble beginnings as a messaging app, it has revolutionized the way people connect and interact. The platform's evolution and innovative features have had a profound societal influence, empowering individuals, businesses, and journalists alike. However, challenges such as misinformation persist, requiring continuous efforts to address them. Looking ahead, WhatsApp's future seems promising as it adapts to the ever-changing technological landscape, potentially redefining the boundaries of communication and connectivity.</h3>
+          </section>
+          <section>
+            <h2>Contact Us</h2>
+            <form>
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+              </div>
+             
+            </form>
+          </section>
+        </main>
+        <footer>
+          <p>&copy; 2023 My Website. All rights reserved.</p>
+        </footer>
+      </div>
+      
+
+
+</body>
